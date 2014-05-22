@@ -68,7 +68,7 @@ unsigned char code[] = \
 main ()
 {
 
-        // When the Port contains null bytes, printf will show a wrong shellcode length.
+  // When the Port contains null bytes, printf will show a wrong shellcode length.
 
   printf("Shellcode Length:  %d\n", strlen(code));
 
@@ -89,6 +89,3 @@ main ()
      "call code");
 
 }
-
-
-
